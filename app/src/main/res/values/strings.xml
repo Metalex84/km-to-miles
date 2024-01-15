@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">VideoClase15ene</string>
-    <string name="points">...</string>
+    <string name="points">…</string>
     <string name="enterKM">Ingresa kilometros</string>
     <string name="enterML">Ingresa millas</string>
     <string name="toMiles">A millas</string>

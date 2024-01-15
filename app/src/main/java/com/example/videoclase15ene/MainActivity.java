@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 float km = Float.parseFloat(edit_km.getText().toString());
                 float millas = km / 1.609f;
-                edit_ml.setText(format("%f", millas));
+                edit_ml.setText(String.format("%f", millas));
             }
         });
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 float millas = Float.parseFloat(edit_ml.getText().toString());
                 float kilometros = millas * 1.609f;
-                edit_km.setText(format("%f", kilometros));
+                edit_km.setText(String.format("%f", kilometros));
             }
         });
     }
